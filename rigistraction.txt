@@ -1,0 +1,167 @@
+<html>
+<head>
+<link href="css/bootstrap.css" rel="stylesheet"/>
+<link href="css/font-awesome.css" rel="stylesheet"/>
+<script src="js/jquery-3.5.1.js"></script>
+<script src="js/bootstrap.js"></script>
+
+<style>
+.bgimage
+{
+min-height:655px;
+background:url('image/teacher2.jpg');
+background-size:cover;
+background-size:100% 100%;
+}
+.opaicity1
+{
+min-height:655px;
+background:rgba(0,0,0,0.5);
+ 
+}
+.opaicity2
+{
+min-height:600px;
+background:rgba(255,255,255,.3);
+border-radius:20px;
+}
+#regbtn
+{
+height:40px;
+border-radius:10px;
+color:white;
+font-family:Didot;
+border:none;
+}
+#regbtn:hover
+{
+height:40px;
+border-radius:10px;
+color:white;
+font-family:Didot;
+background:black;
+border:none;
+}
+</style>
+ </head>
+ <body>
+ <div class="container-fluid">
+ <div class="row">
+ <div class="col-sm-12 bgimage">
+ <div class="row">
+ <div class="col-sm-12 opaicity1">
+ <div class="row">
+ <div class="col-sm-2"></div>
+ <div class="col-sm-8 opaicity2 mt-4">
+<center><h3 style="color:white;font-family:impact">STUDENT REGISTRACTION</h3></center>
+ 
+ <div class="row p-1 " style="color:white;font-weight:bold;">
+
+ <div class="col-sm-6">
+ Username:</br>
+ <input type="text"placeholder="Enter username" class="form-control"/></br>
+ </div>
+ 
+ <div class="col-sm-6">
+ DOB:</br>
+ <input type="text"placeholder="Enter dob" class="form-control"/></br>
+ </div>
+ 
+ <div class="col-sm-6">
+Gender:</br>
+ <input type="radio"name="gen" value="Male"/>Male
+ <input type="radio"name="gen" value="Female"/>Female
+ </div>
+ <div class="col-sm-6">
+ Email:</br>
+ <input type="email"placeholder="Enter email" class="form-control"/></br>
+ </div>
+ 
+ <div class="col-sm-6">
+ Password:</br>
+ <input type="password"placeholder="Enter password" class="form-control"/></br>
+ </div>
+ 
+ <div class="col-sm-6">
+ Mobile Number:</br>
+ <input type="number"placeholder="Enter Mobile no" class="form-control"/></br>
+ </div>
+ 
+ <div class="col-sm-6">
+College Name:</br>
+ <select class="form-control">
+ <option>Choose Your College</option>
+ <option>C.S.J.M GOVERNMENT POLYTECHNIC AMBEDKAR NAGAR</option>
+ <option>GOVERNMENT GIRLS CollegeVARANSI UP</option>
+ <option>GOVERNMENT POLYTECHNIC KANPUR UP</option>
+ <option>GOVERNMENT POLYTECHNIC BALLIA</option>
+ <option>GOVERNMENT POLYTECHNIC GORAKHPUR UP</option>
+ <option>GOVERNMENT POLYTECHNIC SULTANPUR</option>
+ <option>GOVERNMENT POLYTECHNIC AZAMGARH</option>
+ <option>GOVERNMENT POLYTECHNIC FAIZABAD</option>
+ <option>GOVERNMENT POLYTECHNIC FAIZABAD</option>
+ <option>GOVERNMENT POLYTECHNIC FAIZABAD</option>
+ <option>GOVERNMENT POLYTECHNIC FAIZABAD</option>
+ </select>
+ </br>
+ </div>
+  <div class="col-sm-6">
+Course:</br>
+<select class="form-control">
+<option>Choose Our Course</option>
+<option>POLYTECHNIC</option>
+<option>B-TECH</option>
+<option>M-TECH</option>
+<option>BCA</option>
+<option>ITI</option>
+<option>B-FORMA</option>
+<option>D-FORMA</option>
+<option>MBA</option>
+</select>
+
+ </br>
+ </div>
+   <div class="col-sm-6">
+Year:</br>
+<select class="form-control">
+<option>Choose Our Year</option>
+<option>1st Year</option>
+<option>2nd Year</option>
+<option>3rd Year</option>
+<option>4th Year</option>
+
+</select>
+
+ </br>
+ </div>
+ <div class="col-sm-6">
+ Choose file:</br>
+ <input type="file"placeholder="Upload file" class="form-control"/></br>
+ </div>
+ <div class="row">
+ <div class="col-sm-2"></div>
+ <div class="col-sm-8">
+ <input type="submit" value="REGISTR NOW HERE"class="btn btn-info form-control" id="regbtn"/></br></br>
+ 
+ <a href="stulogin.html"><input type="submit" value="LOGIN NOW"class="btn btn-info form-control" id="regbtn"/></a>
+ </div>
+ <div class="col-sm-2"></div>
+ </div>
+ 
+
+ </div>
+ 
+ </div>
+ 
+ <div class="col-sm-2 mt-2"></div>
+ </div>
+ 
+ </div>
+ </div>
+ </div>
+ </div>
+ 
+ </div>
+ 
+ </body>
+ </html>
